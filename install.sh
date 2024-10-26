@@ -96,7 +96,7 @@ _install() {
 	# If pve-nag-buster is installed again this file will be overwritten
 	#
 
-  deb http://download.proxmox.com/debian/ceph-quincy bookworm no-subscription
+	deb http://download.proxmox.com/debian/ceph-quincy bookworm no-subscription
 	EOF
 
   # create dpkg pre/post install hooks for persistence
