@@ -41,7 +41,7 @@ if [ -f "$PAID_BASE.list" ]; then
 fi
 
 # disable paid ceph repo
-PAID_BASE="/etc/apt/sources.list.d/ceph-no-subscription"
+PAID_BASE="/etc/apt/sources.list.d/ceph"
 
 if [ -f "$PAID_BASE.list" ]; then
   echo "$SCRIPT: Disabling PVE paid Ceph repo list ..."
